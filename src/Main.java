@@ -38,6 +38,23 @@ public class Main {
         System.out.println("The quotient using ints of " + doubleOperandA + " and " + doubleOperandB + " is " + doubleQuotient); //Output Statement
         doubleModulo = doubleOperandA % doubleOperandB; //Assignment that uses %
         System.out.println("The Modulo using ints of " + doubleOperandA + " and " + doubleOperandB + " is " + doubleModulo); //Output Statement
+        int numOfKids = 8;
+        String isRaining = "true";
+        double priceOfGas = 3.09;
+        int favNum = 35;
+        double shoeSize = 12.5;
+        int birthMonth = 8;
+        String firstName = "Blake";
+        String lastName = "Hill";
 
+
+        System.out.println("There are " + numOfKids + " kids in my family.");
+        System.out.println("Is it raining? " + isRaining);
+        System.out.println("The price of gas is " + priceOfGas + " per gallon.");
+        System.out.println("My favorite number is " + favNum + ".");
+        System.out.println("My shoe size is " + shoeSize + ".");
+        System.out.println("My birth month is the " + birthMonth + " month of the year.");
+        System.out.println("Is it raining? " + isRaining);
+        System.out.println("My full name is " + firstName + " " + lastName );
     }
 }
